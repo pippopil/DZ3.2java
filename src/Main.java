@@ -2,15 +2,15 @@ public class Main {
     public static void main(String[] args) {
         BmiService service = new BmiService();
 
-        int bmi = service.calculate(85, 186);
+        double bmi = service.calculate(85, 1.86);
         System.out.println(bmi);
-        int bmi1 = service.calculate(99, 170);
+        double bmi1 = service.calculate(99, 1.70);
         System.out.println(bmi1);
-        int bmi2 = service.calculate(77, 195);
+        double bmi2 = service.calculate(77, 1.95);
         System.out.println(bmi2);
-        int bmi3 = service.calculate(67, 180);
+        double bmi3 = service.calculate(67, 1.80);
         System.out.println(bmi3);
-        int bmi4 = service.calculate(79, 186);
+        double bmi4 = service.calculate(79, 1.86);
         System.out.println(bmi4);
     }
 }
